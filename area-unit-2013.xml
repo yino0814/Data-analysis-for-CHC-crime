@@ -1,0 +1,279 @@
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>c9dc0aab-2bd9-e741-7ba3-ef3f153d54ed</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="004"/>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="005"/>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>dataset</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Geospatial Team</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Statistics New Zealand</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Geospatial Analyst</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>04-931 4600</gco:CharacterString>
+              </gmd:voice>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>Statistics House, The Boulevard, Harbour Quays</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Wellington</gco:CharacterString>
+              </gmd:city>
+              <gmd:postalCode>
+                <gco:CharacterString>6140</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>NZ</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>geography@stats.govt.nz</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="007"/>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime>20161020</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:spatialRepresentationInfo>
+    <gmd:MD_VectorSpatialRepresentation>
+      <gmd:topologyLevel>
+        <gmd:MD_TopologyLevelCode codeList="./resources/codeList.xml#MD_TopologyLevelCode" codeListValue="001"/>
+      </gmd:topologyLevel>
+      <gmd:geometricObjects>
+        <gmd:MD_GeometricObjects>
+          <gmd:geometricObjectType>
+            <gmd:MD_GeometricObjectTypeCode codeList="./resources/codeList.xml#MD_GeometricObjectTypeCode" codeListValue="002"/>
+          </gmd:geometricObjectType>
+          <gmd:geometricObjectCount>
+            <gco:Integer>0</gco:Integer>
+          </gmd:geometricObjectCount>
+        </gmd:MD_GeometricObjects>
+      </gmd:geometricObjects>
+    </gmd:MD_VectorSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>AU2013_V1_00</gco:CharacterString>
+          </gmd:title>
+          <gmd:presentationForm>
+            <gmd:CI_PresentationFormCode codeList="./resources/codeList.xml#CI_PresentationFormCode" codeListValue="005"/>
+          </gmd:presentationForm>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>This is the definitive set of area unit boundaries for 2013 as defined by Statistics New Zealand as at 1 January 2013.
+Area units are aggregations of adjacent meshblocks with coterminous boundaries to form a single unbroken surface area (land and/or water). Exceptions to this rule are some area units comprising collections of geographically related inlets and marinas.
+In an urban location, an area unit is often a collection of city blocks, while in rural situations area units may be equated to localities or communities. Area units must either define or aggregate to define urban areas, rural centres, statistical areas, territorial authorities, and regional councils.
+Each area unit must be a single geographic entity with a unique name. The area unit pattern is revised once every five years in the year immediately before a Census of Population and Dwellings. There may also be changes in other years, in conjunction with local body boundary changes. Statistics New Zealand maintains a concordance file to ensure boundaries relating to earlier area unit patterns can also be generated.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>AU2013_V1_00 is the definitive set of area unit boundaries for 2013. This version contains 2,004 area units and excludes non-digitised area units of which there are 16.</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Geospatial Team</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Statistics New Zealand</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Geospatial Analyst</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>04-931 4600</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Statistics House, The Boulevard, Harbour Quays</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Wellington</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>6140</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>NZ</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>geography@stats.govt.nz</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="007"/>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>These conditions of supply apply to all users of Statistics New Zealand digital boundaries effective 1 July 2007. Permitted uses Statistics New Zealand must be acknowledged as the source of the boundaries. Uses not permitted Users are not permitted to change the accuracy of the boundaries and supply them to another party. Liability While care has been taken to compile these boundary coordinates, Statistics New Zealand gives no warranty that the data supplied is free from error. Statistics New Zealand shall not be liable for any loss suffered through the use, directly or indirectly, of any information, product or service.</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="001"/>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="004"/>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:environmentDescription>
+        <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3143</gco:CharacterString>
+      </gmd:environmentDescription>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement/>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>Data represents area unit polygons dissolved from meshblocks since 1991</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement/>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent/>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement/>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>165.973643757</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-175.379047054</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-47.6201235791</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>-33.9584971002</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://datafinder.stats.govt.nz/layer/25743-area-unit-2013/</gmd:URL>
+              </gmd:linkage>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="005"/>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Area units are based on the meshblock pattern. Non-alignment of meshblock and cadastral boundaries are one of a number of reasons for meshblock boundary adjustments. Other reasons include requests from local authorities, Local Government Commission, Electoral Representation Commission and to make Census of Population and Dwellings enumeration processes easier. From the meshblock pattern, higher geographies, including the 2014 area unit pattern, were dissolved using the dissolve tool in the Arc GIS suite. To derive the area unit boundaries clipped to the coastline, meshblock polygons were dissolved to exclude meshblocks with a land/water attribute of Inlet or Oceanic.</gco:CharacterString>
+          </gmd:statement>
+          <gmd:source>
+            <gmd:LI_Source>
+              <gmd:description>
+                <gco:CharacterString>The original vertices delineating the meshblock boundary pattern were digitised in 1991 from 1:5,000 scale urban maps and 1:50,000 scale rural maps. The magnitude of error of the original digital points would have been in the range of +/- 10 metres in urban areas and +/- 25 metres in rural areas. Where meshblock boundaries coincide with cadastral boundaries the magnitude of error will be within the range of 1–5 metres in urban areas and 5 - 20 metres in rural areas. This being the estimated magnitude of error of Landonline. The creation of high definition and generalised meshblock boundaries for the 2013 digital pattern and the dissolving of these meshblocks into other geographies/boundaries were completed within Statistics New Zealand using ESRI's ArcGIS desktop suite and the Data Interoperability extension with the following process: 1. Import data and all attribute fields into an ESRI File Geodatabase from LINZ as a shapefile 2. Run geometry checks and repairs. 3. Run Topology Checks on all data (Must Not Have Gaps, Must Not Overlap), detailed below. 4. Generalise the meshblock layers to a 1m tolerance to create generalised dataset. 5. Clip the high definition and generalised meshblock layers to the coastline using land water codes. 6. Dissolve all four meshblock datasets (clipped and unclipped, for both generalised and high definition versions) to higher geographies to create the following output data layers: Area Unit, Territorial Authorities, Regional Council, Urban Areas, Community Boards, Territorial Authority Subdivisions, Wards, Constituencies and Maori Constituencies for the four datasets. 7. Complete a frequency analysis to determine that each code only has a single record. 8. Re-run topology checks for overlaps and gaps. 9. Export all created datasets into MapInfo and Shapefile format using the Data Interoperability extension to create 4 output formats for each file. 10. Quality Assurance and rechecking of delivery files. The High Definition version is similar to how the layer exists in Landonline with a couple of changes to fix topology errors identified in topology checking. The following quality checks and steps were applied to the meshblock pattern: Translation of ESRI Shapefiles to ESRI geodatabase dataset The meshblock dataset was imported into the ESRI File Geodatabase format, required to run the ESRI topology checks. Topology rules were set for each of the layers. Topology Checks A tolerance of 0.1 cm was applied to the data, which meant that the topology engine validating the data saw any vertex closer than this distance as the same location. A default topology rule of “Must Be Larger than Cluster Tolerance” is applied to all data – this would highlight where any features with a width less than 0.1cm exist. No errors were found for this rule. Three additional topology rules were applied specifically within each of the layers in the ESRI geodatabase – namely “Must Not Overlap”, “Must Not Have Gaps” and “"Area Boundary Must Be Covered By Boundary Of (Meshblock)”. These check that a layer forms a continuous coverage over a surface, that any given point on that surface is only assigned to a single category, and that the dissolved boundaries are identical to the parent meshblock boundaries. Topology Checks Results: There were no errors in either the gap or overlap checks. Generalising To create the generalised Meshblock layer the “Simplify Polygon” geoprocessing tool was used in ArcGIS, with the following parameters: Simplification Algorithm: POINT_REMOVE Maximum Allowable Offset: 1 metre Minimum Area: 1 square metre Handling Topological Errors: RESOLVE_ERRORS Clipping of Layers to Coastline The processed feature class was then clipped to the coastline. The coastline was defined as features within the supplied Land2013 with codes and descriptions as follows: 11- Island – Included 12- Mainland – Included 21- Inland Water – Included 22- Inlet – Excluded 23- Oceanic – Excluded 33- Other – Included. Features were clipped using the Data Interoperability extension, attribute filter tool. The attribute filter was used on both the generalised and high definition meshblock datasets creating four meshblock layers. Each meshblock dataset also contained all higher geographies and land-water data as attributes. Note: Meshblock 0017001 which is classified as island, was excluded from the clipped meshblock layers, as most of this meshblock is oceanic. Dissolve meshblocks to higher geographies Statistics New Zealand then dissolved the ESRI meshblock feature classes to the higher geographies, for both the full and clipped dataset, generalised and high definition datasets. To dissolve the higher geographies, a model was built using the dissolver, aggregator and sorter tools, with each output set to include geography code and names within the Data Interoperability extension. Export to MapInfo Format and Shapefiles The data was exported to MapInfo and Shapefile format using ESRI's Data Interoperability extension Translation tool. Quality Assurance and rechecking of delivery files The feature counts of all files were checked to ensure all layers had the correct number of features. This included checking that all multipart features had translated correctly in the new file.</gco:CharacterString>
+              </gmd:description>
+            </gmd:LI_Source>
+          </gmd:source>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataConstraints>
+    <gmd:MD_Constraints>
+      <gmd:useLimitation>
+        <gco:CharacterString>These conditions of supply apply to all users of Statistics New Zealand digital boundaries effective 1 July 2007. Permitted uses Statistics New Zealand must be acknowledged as the source of the boundaries. Uses not permitted Users are not permitted to change the accuracy of the boundaries and supply them to another party. Liability While care has been taken to compile these boundary coordinates, Statistics New Zealand gives no warranty that the data supplied is free from error. Statistics New Zealand shall not be liable for any loss suffered through the use, directly or indirectly, of any information, product or service.</gco:CharacterString>
+      </gmd:useLimitation>
+    </gmd:MD_Constraints>
+  </gmd:metadataConstraints>
+  <gmd:metadataConstraints>
+    <gmd:MD_LegalConstraints>
+      <gmd:useLimitation>Attribution 3.0 New Zealand</gmd:useLimitation>
+      <gmd:useLimitation>http://creativecommons.org/licenses/by/3.0/nz/</gmd:useLimitation>
+      <gmd:useConstraints>
+        <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</gmd:MD_RestrictionCode>
+      </gmd:useConstraints>
+    </gmd:MD_LegalConstraints>
+  </gmd:metadataConstraints>
+</gmd:MD_Metadata>
